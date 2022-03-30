@@ -76,11 +76,11 @@
             this.rowguidDataGridViewTextBoxColumn,
             this.modifiedDateDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.employeeBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(53, 48);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(683, 345);
+            this.dataGridView1.Size = new System.Drawing.Size(1108, 490);
             this.dataGridView1.TabIndex = 0;
             // 
             // adventureWorksDataSet
@@ -230,7 +230,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1132, 527);
             this.Controls.Add(this.dataGridView1);
             this.Name = "EmployeeDetails";
             this.Text = "EmployeeDetails";
